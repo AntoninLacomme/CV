@@ -1,0 +1,9 @@
+main#main {
+    width: 90%;
+    margin: auto auto;
+    padding: 1em;
+}
+
+#slider-theme {
+    position: fixed;
+}
