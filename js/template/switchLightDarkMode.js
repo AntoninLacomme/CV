@@ -73,7 +73,7 @@ template.innerHTML = `
 class SwitchLightDarkMode extends HTMLElement {
     constructor () {
         super ();
-        this.checked = true;
+        this.checked = false;
         this.attachShadow ({mode: "open"})
     }
 
