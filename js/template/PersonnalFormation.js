@@ -10,14 +10,34 @@ template.innerHTML = `
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding: 1em;
+        align-items: center;
+        border-bottom :solid thin grey;
     }
 
     .year {
+        font-size: 24px;
+        font-weight: bold;
+        min-width: 121px;
+    }
 
+    .diplome-title {
+        font-weight: bold;
     }
 
     .diplome {
+        text-align: right;
+        max-width: calc(100% - 121px - 5%);
+        width: calc(100% - 121px - 5%);
+        font-size: 22px;
+    }
 
+    .diplome-projets {
+        font-size: 18px;
+    }
+
+    ul {
+        list-style-type: none;
     }
 </style>
 
@@ -27,7 +47,14 @@ template.innerHTML = `
             2021-2022
         </div>
         <div class="diplome">
-            Master Méthodes Informatiques Appliquées à la Gestion des Entreprises (MIAGE) Université Nice Sophia Antipolis        
+            <div class="diplome-title">Master MIAGE MBDS Université Nice Sophia Antipolis</div>
+            <div class="diplome-projets">
+                <ul>
+                    <li><span>Projet NodeJS / R / Oracle / MongoDB / Hadoop</span> : Projet BigData</li>
+                    <li><span>Projet NodeJS / Angular</span> : Projet de gestion de fiche de frais</li>
+                    <li><span>Projet Javascript</span> : Participation au concours Games On Web</li>
+                </ul>
+            </div>
         </div>
     </div>
     
@@ -36,7 +63,13 @@ template.innerHTML = `
             2020-2021
         </div>
         <div class="diplome">
-            Master MIAGE MBDS Université Nice Sophia Antipolis        
+            <div class="diplome-title">Master Méthodes Informatiques Appliquées à la Gestion des Entreprises (MIAGE) Université Nice Sophia Antipolis</div>
+            <div class="diplome-projets">
+                <ul>
+                    <li><span>Suivi de projet</span> : méthodes SCRUM et AGILE</li>
+                    <li><span>Projet Java</span> : réalisation en groupe de 5 d'un Scrabble multijoueur</li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -45,7 +78,14 @@ template.innerHTML = `
             2019-2020
         </div>
         <div class="diplome">
-            Licence 3 Méthodes Informatiques Appliquées à la Gestion des Entreprises (MIAGE) Université Nice Sophia Antipolis
+            <div class="diplome-title">Licence 3 Méthodes Informatiques Appliquées à la Gestion des Entreprises (MIAGE) Université Nice Sophia Antipolis</div>
+            <div class="diplome-projets">
+                <ul>
+                    <li><span>Gestion de Projet Java</span> : réalisation par groupe de 5 d’un jeu DiceForge en AGILE</li>
+                    <li><span>Projet Javascript</span> : réalisation en groupe de 2 d'un jeu Javascript</li>
+                    <li><span>Projet Javascript</span> : participation au concours Games On Web</li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -54,7 +94,8 @@ template.innerHTML = `
             2017-2019
         </div>
         <div class="diplome">
-            BTS Service Informatique aux Organisations (SIO) spécialité Solution Logicielle et Application Métier (SLAM)
+            <div class="diplome-title">BTS Service Informatique aux Organisations (SIO) spécialité Solution Logicielle et Application Métier (SLAM)</div>
+            <div class="diplome-projets"></div>
         </div>
     </div>
 </div>

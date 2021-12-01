@@ -44,7 +44,7 @@ template.innerHTML = `
             Désormais, je recherche un stage de fin d'année en développement NodeJS, Angular ou React.
         </p>
         <p>
-            Durant mes études j'ai essentiellement travaillé en Java et en Javascript. J'ai également été formé à utiliser Oracle ou encore MongoDB.
+            Durant mes études j'ai essentiellement travaillé en Java et en Javascript. J'ai également été formé à utiliser des systèmes de gestion de base de données tels qu'Oracle ou encore MongoDB.
         </p>
     </div>
 </div>
