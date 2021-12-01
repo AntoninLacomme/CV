@@ -1,6 +1,6 @@
-import "./template/SwitchLightDarkMode.js";
-import "./template/PersonnalInformation.js";
-import "./template/PersonnalFormation.js";
-import "./template/PersonnalExperience.js";
-import "./template/PersonnalCompetence.js";
-import "./template/ProjetsPersonnels.js";
+import "../js/template/SwitchLightDarkMode.js";
+import "../js/template/PersonnalInformation.js";
+import "../js/template/PersonnalFormation.js";
+import "../js/template/PersonnalExperience.js";
+import "../js/template/PersonnalCompetence.js";
+import "../js/template/ProjetsPersonnels.js";
