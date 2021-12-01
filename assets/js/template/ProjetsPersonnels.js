@@ -41,7 +41,7 @@ template.innerHTML = `
         <div class="element">
             <h4><a href="https://github.com/AntoninLacomme/AudioProject">Projet Audio</a></h4>
             <p>
-            Lecteur audio tournant avec un serveur NodeJS. Permet de choisir un dossier local et crée une playliste de tous les fichiers mp3 trouvés. 
+            Lecteur audio tournant avec un serveur NodeJS. Permet de choisir un dossier local et crée une playlist de tous les fichiers mp3 trouvés. 
             L'application est également capable de télécharger et sauvegarder dans le dossier des musiques provenant de youtube.
             Une petite animation pulse sur l'écran en fonction des fréquences du fichier en cours.
             </p>
@@ -57,6 +57,28 @@ template.innerHTML = `
             Projet à héberger sur un serveur web, ayant servi de TP pour se familiariser avec les Web Components. Il consiste en un lecteur audio.
             </p>
             <a href="https://antoninlacomme.github.io/TPWebComponent/">
+                Hébergement sur github pages
+            </a>
+            <span class="span-image"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
+        </div>
+
+        <div class="element">
+            <h4><a href="https://github.com/AntoninLacomme/GameOfLife">Jeu de la Vie</a></h4>
+            <p>
+                Une simulation en javascript d'un <a href="http://ressources.univ-lemans.fr/AccesLibre/UM/Pedago/physique/02/recre/conway.html">jeu de la vie</a>.
+            </p>
+            <a href="https://antoninlacomme.github.io/GameOfLife/">
+                Hébergement sur github pages
+            </a>
+            <span class="span-image"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
+        </div>
+
+        <div class="element">
+            <h4><a href="https://github.com/AntoninLacomme/ChuiPerduChef">Générateur de Labyrinthe</a></h4>
+            <p>
+                Un générateur de labyrinthe développé en javascript.
+            </p>
+            <a href="https://antoninlacomme.github.io/ChuiPerduChef/">
                 Hébergement sur github pages
             </a>
             <span class="span-image"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
