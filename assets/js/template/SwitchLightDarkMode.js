@@ -82,9 +82,9 @@ class SwitchLightDarkMode extends HTMLElement {
 
         this.shadowRoot.querySelector ("#input").checked = this.checked;
 
-        document.querySelector ("link#link-theme").href = this.checked ? "./css/dark-theme.css" : "./css/light-theme.css";
+        document.querySelector ("link#link-theme").href = this.checked ? "./assets/css/dark-theme.css" : "./assets/css/light-theme.css";
         this.shadowRoot.querySelector ("#input").addEventListener ("input", e => {
-            document.querySelector ("link#link-theme").href = e.target.checked ? "./css/dark-theme.css" : "./css/light-theme.css";
+            document.querySelector ("link#link-theme").href = e.target.checked ? "./assets/css/dark-theme.css" : "./assets/css/light-theme.css";
         })
     }
 }
