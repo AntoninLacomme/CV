@@ -4,3 +4,4 @@ import "../js/template/PersonnalFormation.js";
 import "../js/template/PersonnalExperience.js";
 import "../js/template/PersonnalCompetence.js";
 import "../js/template/ProjetsPersonnels.js";
+import "../js/template/AboutMyself.js";
