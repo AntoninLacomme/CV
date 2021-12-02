@@ -16,7 +16,7 @@ class CVSection extends HTMLElement {
                 this.shadowRoot.appendChild(template.content.cloneNode(true));
                 
                 this.shadowRoot.querySelectorAll ("a").forEach (elem => elem.target = "_blank");
-                this.shadowRoot.querySelectorAll ("img").forEach (image => image.src = `.${path}icons/${image.src.slice (image.src.lastIndexOf ("/")+1)}`);
+                this.shadowRoot.querySelectorAll ("img").forEach (image => image.src = `${path}icons/${image.src.slice (image.src.lastIndexOf ("/")+1)}`);
             });
         } else {
             throw "no parameter target found !"
