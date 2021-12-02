@@ -47,6 +47,35 @@ template.innerHTML = `
             </p>
             <span class="span-image"><img src="icon-nodejs.svg"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
         </div>
+        
+        <div class="element">
+            <h4><a href="https://github.com/AntoninLacomme/Mica">Mica</a></h4>
+            <p>
+            Mica est une infrastructure de seveur NodeJS implémentant des websockets. Compte tenu que set up un serveur Node implémentant SocketIO peut être assez pénible,
+            j'ai créé un projet servant de base afin de pouvoir le réutiliser plus tard dans d'autres projets.
+            </p>
+            <span class="span-image"><img src="icon-nodejs.svg"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
+        </div>
+
+        <div class="element">
+            <h4><a href="https://gitlab.com/mbds-side-dish/battleship/-/tree/develop-node-server">BattleShip</a></h4>
+            <p>
+                Projet de Bataille Navale multijoueur. Un sevreur NodeJS implémentant des WebSockets permet la communication entre les joueurs. Ce serveur reprend mon projet Mica.
+                Le projet BattleShip a été mis en pause temporairement, et n'est pas encore fini. Pour l'instant, il implémente un serveur ainsi que la communication entre les joueurs. 
+                On peut positionner ses bateaux sur la grille, et lancer la partie. Toutefois, la partie en elle même reste à finaliser.
+            </p>
+            <span class="span-image"><img src="icon-nodejs.svg"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
+        </div>
+
+        <div class="element">
+            <h4><a href="https://github.com/AntoninLacomme/Oreo">Oreo</a></h4>
+            <p>
+                Oreo est, comme son nom ne l'indique pas du tout, un jeu d'<a href="https://fr.wikipedia.org/wiki/Othello_(jeu)">Othello</a>.
+                Le projet est multijoueur et intègre un serveur NodeJS implémentant des WebSockets repris du projet Mica. Concu volontairement simple, il n'implémente aucune condition de victoire ou vérification de connection.
+                Toutefois il reste totalement jouable et opérationnel si on a  minutes à perdre entre deux cours.
+            </p>
+            <span class="span-image"><img src="icon-nodejs.svg"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
+        </div>
     </div>
 
     <h3>Projets web</h3>
@@ -112,6 +141,28 @@ template.innerHTML = `
                 Un Sudoku développé lors de mon BTS.
             </p>
             <a href="https://antoninlacomme.github.io/Sudokuv2/">
+                Hébergement sur github pages 
+            </a>
+            <span class="span-image"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
+        </div>
+
+        <div class="element">
+            <h4><a href="https://github.com/AntoninLacomme/Demineur">Démineur</a></h4>
+            <p>
+                Un démineur. J'aime beaucoup les démineurs.
+            </p>
+            <a href="https://antoninlacomme.github.io/Demineur/">
+                Hébergement sur github pages 
+            </a>
+            <span class="span-image"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
+        </div>
+
+        <div class="element">
+            <h4><a href="https://github.com/AntoninLacomme/2048">2048</a></h4>
+            <p>
+                Un 2048 très basique.
+            </p>
+            <a href="https://antoninlacomme.github.io/2048/">
                 Hébergement sur github pages 
             </a>
             <span class="span-image"><img src="icon-javascript.svg"><img src="icon-html5.svg"></span>
